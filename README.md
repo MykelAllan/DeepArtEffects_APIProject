@@ -1,13 +1,12 @@
 # DeepArtEffects_APIProject
 
-### This Project is a Group Project
-
-**[Demo](https://deepartseffect.vercel.app/)**
-**Disclaimer**
--   (Generating Image might not work because of outdated API) 
-
+### [This Project is a Group Project](https://deepartseffect.vercel.app/)
 
 *[Here](https://vimeo.com/871995836?share=copy)'s a video to demonstrate the project*
+
+**Disclaimer**
+
+(Generating Image might not work because of outdated API) 
 
 ## Instructions
 - Firstly open terminal
