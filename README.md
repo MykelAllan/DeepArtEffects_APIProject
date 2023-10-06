@@ -4,7 +4,8 @@
 
 **[Demo](https://deepartseffect.vercel.app/)**
 **Disclaimer**
-(Generating Image might not work because of outdate API)
+(Generating Image might not work because of outdated API)
+*[Here](https://vimeo.com/871995836?share=copy)'s a video to demonstrate the project*
 
 ## Instructions
 - Firstly open terminal
