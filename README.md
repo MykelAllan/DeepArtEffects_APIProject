@@ -2,7 +2,7 @@
 
 ### This Project is a Group Project
 
-**[Demo](https://deepartseffect.vercel.app/)
+**[Demo](https://deepartseffect.vercel.app/)**
 
 
 ## Instructions
