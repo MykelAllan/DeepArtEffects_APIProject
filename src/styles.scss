@@ -1,0 +1,530 @@
+$primary_color: #593bc4;
+$secondary_color: #1b123b;
+$text_color: white;
+$border_color: white;
+
+* {
+  font-family: "Lucida Sans";
+}
+html {
+  background-color: $secondary_color;
+
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: $secondary_color;
+  text-align: center;
+
+}
+//navbar
+#navTitle {
+  cursor: pointer;
+}
+.navbar {
+  font-family: "Lucida Sans";
+  background-color: $primary_color;
+}
+
+// Home
+
+/* Carousel */
+.sample-title h3 {
+  margin-top: 65px;
+  background-color: $secondary_color;
+  color: white;
+}
+.img-display {
+  width: 40%;
+  aspect-ratio: 1;
+  margin-top: 75px;
+  border-radius: 15px;
+}
+.img-text {
+  font-size: 140%;
+}
+.carousel {
+  background-color: $secondary_color;
+  width: 100%;
+}
+/* .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+} */
+
+.container-proj {
+  width: 100%;
+  background-color: $secondary_color;
+  height: 50rem;
+  border: 2px solid $secondary_color;
+  margin: auto;
+}
+
+.home-divider {
+  width: 90%;
+  border-top: 3px solid $text_color;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.home-container-icon {
+  margin: auto;
+  margin-top: 10px;
+  width: 68%;
+  height: 500px;
+  border: 2px solid $text_color;
+  padding: auto;
+  border-radius: 15px;
+}
+
+.proj-icon {
+  width: 150px;
+  margin-top: 50px;
+  aspect-ratio: 1;
+}
+
+.proj-title {
+  margin-top: 1rem;
+  font-size: 25px;
+  font-weight: 500;
+  color: $text_color;
+}
+
+.proj-title:nth-child(2) {
+  margin-bottom: 1rem;
+}
+
+.home-tryme {
+  margin-top: 5rem;
+  font-family: "Lucida Sans";
+  font-weight: 900;
+  font-size: 150%;
+  color: $text_color;
+  background-color: $primary_color;
+  width: 35%;
+  height: 5.5rem;
+  border-radius: 15px;
+  border: 5px solid $border_color;
+  transition: 0.3s ease-in-out;
+}
+
+.home-tryme:hover {
+  transform: scale(1.05);
+}
+
+//Artworks
+.result-container {
+  width: 40%;
+  height: 15%;
+
+  margin: auto;
+  margin-top: 10px;
+  
+  padding: 15px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  background-color: $primary_color;
+  
+ 
+}
+.result-title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+  color: $text-color;
+}
+
+.result-title.hide {
+  display: none;
+}
+
+.result-image-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 15px;
+}
+
+.result-img-placeholder {
+  color: $text-color;
+}
+
+.result-img {
+  width: 30%;
+  aspect-ratio: 1;
+  padding: 5px;
+  margin: 3px;;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.result-img:hover {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-height: 1000px) {
+  .result-img {
+    width: 19%;
+  }
+}
+
+.result-image-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.result-image-container::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 25px;
+}
+
+.result-image-container::-webkit-scrollbar-track {
+  background-color: $primary_color;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+// About-Us
+.aboutUs-wrapper {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+.aboutUs-container {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid $border_color;
+  background-color: #301f67;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 45px;
+}
+
+.box {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 150px;
+  border: 2px solid $border_color;
+  border-radius: 25px;
+  display: flex;
+  background-color: #140d2b;
+  padding: 10px;
+  position: relative;
+}
+
+.pfp-icon {
+  width: 30%;
+  aspect-ratio: 1;
+  background-color: white;
+  border-radius: 50%;
+  margin: auto;
+  margin-left: 5px;
+  overflow: hidden;
+}
+.pfp-icon img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.pfp-info {
+  margin: 5px;
+  width: 100%;
+  height: 25%;
+  color: $text_color; 
+  position: relative;
+}
+.pfp-info h3,
+.pfp-info h5 {
+  font-size: 95%;
+}
+
+.socials-icon {
+  color: $text-color;
+  display: flex;
+  gap: 15px;
+  bottom: 0px;
+  left: 50%; 
+  transform: translate(-10%, 80%);
+  
+}
+.socials-icon .icons {
+  transition: 0.3s ease-in-out;
+}
+
+.socials-icon .icons:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+//Try Me
+.try-me-wrapper {
+  margin: auto;
+  margin-top: 95px;
+  width: 100%;
+  height: 130vh;
+  // border: 2px solid $border_color;
+}
+
+
+.try-me-container {
+  border: 2px solid $border_color;
+  border-radius: 25px;
+  height: 40%;
+  width: 25%;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 25px;;
+}
+
+.try-me-display-container {
+  border: 2px solid $border_color;
+  margin: auto;
+  margin-top: 45px;
+  width: 60%;
+  height: 50%;
+  border-radius: 25px;
+  overflow: hidden;
+  
+  // background-image: url('./Assets/Images/prev1.jpg');
+}
+
+///
+//Style List//
+.style-text {
+  margin-top: 15px;
+  color: $text_color;
+}
+.image-container {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: $primary_color;
+  padding: 15px;
+  border-radius: 25px;
+  scrollbar-width: thin;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.image-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.image-container::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 25px;
+}
+
+.image-container::-webkit-scrollbar-track {
+  background-color: $primary_color;
+  border-radius: 25px;
+}
+
+.styles-container {
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 25px;
+  // border: 2px solid white;
+}
+
+.styles-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 5px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.styles-card.active {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+.styles-card:hover {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.styles-images {
+  width: 130px;
+  aspect-ratio: 1;
+  border-radius: 25px;
+}
+
+.styles-title {
+  color: white;
+  margin-top: auto;
+}
+/* Select Style Button*/
+.button-selectStyle.disabled {
+  display: none;
+}
+
+.button-selectStyle {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.selectStyle {
+  border: 2px solid $border_color;
+  border-radius: 10px;
+  background-color: $primary_color;
+  color: $text-color;
+  width: 30%;
+  height: 10%;
+  font-weight: 900;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+
+.selectStyle:hover {
+  background-color: #462f9b;
+  transform: scale(1.02);
+}
+///
+//image preview
+.SelectImage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.SelectImage-preview {
+  width: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.SelectImage-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SelectImage-placeholder {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.SelectImage-button {
+  margin-top: 15px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: $primary_color;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 18px;
+  border: 2px solid $border_color;
+  cursor: pointer;
+}
+
+.SelectImage-button:hover {
+  background-color: #462f9b;
+  transform: scale(1.02);
+}
+
+#image-input {
+  display: none;
+}
+
+
+.try-me-btn {
+  margin-top: 15px;
+  border: 2px solid $border_color;
+  border-radius: 10px;
+  background-color: $primary_color;
+  color: $text-color;
+  width: 50%;
+  height: 10%;
+  font-weight: 900;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+.submit-image {
+  margin-top: 0px;
+  width: 60%;
+}
+
+.try-me-btn:hover {
+  background-color: #462f9b;
+  transform: scale(1.02);
+}
+
+//Hiding Select Image If Style is selected
+.select-image.hide {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .try-me-wrapper {
+    width: 450px;
+  }
+  .try-me-display-container {
+    height: 37%;
+  }
+}
+
+//Footer
+.footer-subscribe {
+  color: $text-color;
+  border: 1px solid white;
+  width: 105px;
+  height: 40px;
+  border-radius: 5px;
+  background: none;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-subscribe:hover {
+  color: black;
+  background-color: white;
+}
+
+//NotFound
+.NotFound-wrapper {
+  width: 100%;
+  height: 50%;
+}
+
+.NotFound-container {
+  margin: auto;
+  margin-top: 250px;
+  width: 450px;
+  height: 350px;
+}
+
+.NotFound-wrapper h2 {
+  color: $text-color;
+}
+.NotFound-wrapper h4 {
+  color: $text-color;
+}
