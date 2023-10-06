@@ -1,1 +1,1 @@
-# Deep Art Effects - API Project
+# DeepArtEffects_APIProject
