@@ -3,7 +3,8 @@
 ### This Project is a Group Project
 
 **[Demo](https://deepartseffect.vercel.app/)**
-
+**Disclaimer**
+(Generating Image might not work because of outdate API)
 
 ## Instructions
 - Firstly open terminal
