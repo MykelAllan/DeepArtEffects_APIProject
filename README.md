@@ -4,9 +4,6 @@
 
 *[Here](https://vimeo.com/871995836?share=copy)'s a video to demonstrate the project*
 
-**Disclaimer**
-
-(Generating Image might not work because of outdated API) 
 
 ## Instructions
 - Firstly open terminal
