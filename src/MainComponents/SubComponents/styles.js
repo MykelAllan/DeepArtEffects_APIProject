@@ -2,16 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Axios from "axios";
 
-// API CREDENTIALS
-/* 
-API Key: FIlfDzN64Havb0s9UJE5w1dwE8hAUWr62erEXXzX
-Access Key: AKIA3XE3HF7SV644Y2V5
-Secret Key: 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
-//////////////////////////
-API Key: VFg3u0apsp609mxLWLld08hjnKJOi50q1i88ATZJ
-Access Key: AKIA3XE3HF7SRLJTLO4S
-Secret Key: 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
-*/
+
 
 export default function Styles(props) {
   const [styles, setStyles] = useState(null);
@@ -19,7 +10,7 @@ export default function Styles(props) {
   const [running, setRunning] = useState(false);
   const imageContainerRef = useRef(null);
 
-  const API_KEY = "FIlfDzN64Havb0s9UJE5w1dwE8hAUWr62erEXXzX";
+  const API_KEY = "";
   const selectBtn = document.getElementById("button-select");
   const styleCards = Array.from(document.getElementsByClassName("styles-card"));
   const loadingTxtlbl = document.getElementById("loading-result");
